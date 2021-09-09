@@ -6,7 +6,9 @@ MoodleUpdateTool is a fairly simple script that updates moodle to a superior ver
 This scripts automates several steps defined in https://docs.moodle.org/311/en/Upgrading
 
 **NOTICE**
-This script has been tested in ubuntu systems so far.
+
+1. This script has been tested in ubuntu systems so far.
+1. This script works in EN and ES hostings, other languages may need tinkering with it.
 
 ## WHAT THIS IS  FOR
 
@@ -54,10 +56,16 @@ https://<yourmoodlesite.com>/admin/environment.php
 * Step 5: Annotate current moodle folder. This will be *current-moodle-dir*
 * Step 6: run the scrpit: ./update-moodle.sh *current-moodle-dir* *new-moodle-dir*
 
-**Post-update tasks **
+**Post-update tasks**
   ===================
 * Step 7: mv *current-moodle-dir* *current-moodle-dir.backup*
 * Step 8: mv *new-moodle-dir* *current-moodle-dir*
 * Step 9: Go to your moodle site and follow the update steps.
   
-  
+# FINAL WORD
+
+Use it at your own risk. No warranty whatsoever.
+
+Let's be honest, I did this because it saves me a ton of time. Just use it, and if you feel like, buy me a coffe ;).
+
+
