@@ -62,6 +62,10 @@ You can check if the moodle is upgradable at:
 * Step 9: Go to your moodle site and follow the update steps.
 
 
+# TO BE DONE
+
+- [ ] There are some tasks and fixes still to be polished. Serveral messages are still in spanish. 
+- [ ] It should work with any version of diff but not been tested enough.
 
   
 # FINAL WORD
@@ -69,5 +73,7 @@ You can check if the moodle is upgradable at:
 Use it at your own risk. No warranty whatsoever.
 
 Let's be honest, I did this because it saves me a ton of time. Just use it, and if you feel like, buy me a coffe ;).
+
+
 
 
