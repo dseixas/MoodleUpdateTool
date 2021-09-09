@@ -1,13 +1,11 @@
 # MoodleUpdateTool
-Moodle update tool simplifies the update of the moodle version so it's simpler and faster to do. 
+MoodleUpdateTool simplifies the update of the moodle version of your choice, so it's simpler and faster to do. 
 
-MoodleUpdateTool is a fairly simple script that updates moodle to a superior version selected by the user. 
-
-This scripts automates several steps defined in https://docs.moodle.org/311/en/Upgrading
+MoodleUpdateTool is a fairly simple script that upgrades moodle to a superior version, selected by the user.  This scripts automates several steps defined in https://docs.moodle.org/311/en/Upgrading
 
 **NOTICE**
 
-1. This script has been tested in ubuntu systems so far.
+1. This script has been tested in ubuntu systems, so far.
 1. This script works in EN and ES hostings, other languages may need tinkering with it.
 
 ## WHAT THIS IS  FOR
@@ -25,21 +23,22 @@ In terms of tasks, this is what MoodleUpdateTool does:
 
 ## WHAT THIS IS NOT FOR
 
-Not all the steps are automatically, for example, selecting, downloading and uncompressing the moodle version you want to upgrade to is part of the user responsability as is backing up database and moodledata. 
+Not all the steps are automatic, for example, selecting, downloading and uncompressing the moodle version you want to upgrade to, is part of your responsibility, as is backing up database and moodledata. 
 
-Nevertheless the scripts provides the user with options for this last two elements.
+Nevertheless, the scripts provides the user with options for this last two elements.
 
-Last but not least, the script will not update PHP, plugins or libraries, you need to update them beforehand and make sure that you're able to update to the selected version. 
+Last, but not least, the script will not update PHP, plugins or libraries; You need to update them beforehand and make sure that you're able to update to the selected version. 
 
+You can check if the moodle is upgradable at: 
 
-
-This can be checked at:
-https://<yourmoodlesite.com>/admin/environment.php
+  https://*yourmoodlesite.com*/admin/environment.php
 
 
 ## USAGE
 
 ./update-moodle.sh *current-moodle-dir* *new-moodle-dir*
+
+
 
 # USER GUIDE
 
@@ -61,6 +60,9 @@ https://<yourmoodlesite.com>/admin/environment.php
 * Step 7: mv *current-moodle-dir* *current-moodle-dir.backup*
 * Step 8: mv *new-moodle-dir* *current-moodle-dir*
 * Step 9: Go to your moodle site and follow the update steps.
+
+
+
   
 # FINAL WORD
 
