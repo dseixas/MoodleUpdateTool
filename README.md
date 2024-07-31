@@ -3,6 +3,9 @@ MoodleUpdateTool simplifies the update of the moodle version of your choice, so 
 
 MoodleUpdateTool is a fairly simple script that upgrades moodle to a superior version, selected by the user.  This scripts automates several steps defined in https://docs.moodle.org/311/en/Upgrading
 
+*NEW* There's a new recommended version of this script. Please use the from-zip version, it's been pimped up and you don't need to unzip the new moodle archive in order to properly work.
+
+
 **NOTICE**
 
 1. This script has been tested in ubuntu systems, so far.
