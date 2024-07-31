@@ -28,7 +28,7 @@ In terms of tasks, this is what MoodleUpdateTool does:
 
 Not all the steps are automatic, for example, selecting, downloading and uncompressing the moodle version you want to upgrade to, is part of your responsibility, as is backing up database and moodledata. 
 
-Nevertheless, the scripts provides the user with options for this last two elements.
+Nevertheless, the scripts provides the user with options for the database backup.
 
 Last, but not least, the script will not update PHP, plugins or libraries; You need to update them beforehand and make sure that you're able to update to the selected version. 
 
@@ -38,6 +38,10 @@ You can check if the moodle is upgradable at:
 
 
 ## USAGE
+
+./update-moodle-from-zip.sh *current-moodle-dir* *moodle-archive.zip*
+
+or
 
 ./update-moodle.sh *current-moodle-dir* *new-moodle-dir*
 
@@ -80,3 +84,12 @@ Let's be honest, I did this because it saves me a ton of time. Just use it, and 
 
 
 
+# LAST VERSION IMPROVEMENTS 
+
+From zip:
+* Allow php version selection
+* Removes traling slash from the first parameter
+* Prepares the moodle directory to be updated (moves it to the server location)
+* Launches the update from command line
+* Activates/Deactivates maintenance mode
+* Deactivates theme so less problems to start with.
