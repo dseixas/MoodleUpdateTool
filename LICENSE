@@ -1,4 +1,4 @@
-                    GNU GENERAL PUBLIC LICENSE
+GNU GENERAL PUBLIC LICENSE (modified)
                        Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -619,6 +619,28 @@ Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
                      END OF TERMS AND CONDITIONS
+
+                        ADDITIONAL RESTRICTIONS
+
+  Notwithstanding any other provision of this License, the following 
+  entities and their affiliated companies are specifically prohibited 
+  from using, copying, modifying, distributing, or otherwise utilizing 
+  this software without prior written permission from the copyright holder:
+
+  - Stratesys Ltd. and any of its subsidiaries, affiliates, or related entities
+  - ANAV (Agencia Nacional de Aviación Civil) and any of its subsidiaries, 
+    affiliates, or related entities
+
+  For the purposes of this restriction, "affiliated companies" includes 
+  but is not limited to parent companies, subsidiary companies, sister 
+  companies, joint ventures, partnerships, or any other business entities 
+  that have common ownership, control, or management with the named entities.
+
+  Any use of this software by the above-mentioned entities without written 
+  permission constitutes a violation of this license and may result in 
+  legal action. Written permission must be obtained directly from the 
+  copyright holder and may include licensing fees or other terms as 
+  determined by the copyright holder.
 
             How to Apply These Terms to Your New Programs
 
